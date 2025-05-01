@@ -1,0 +1,186 @@
+/* ملف styles.css */
+
+/* تنسيق الجسم العام */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* تنسيق الحاوية العامة */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* تنسيق الرأس */
+header {
+    background-color: #2e6289;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* تنسيق الروابط السريعة */
+.links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-btn {
+    display: inline-block;
+    background-color: #2e6289;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.link-btn:hover {
+    background-color: #c35c6d;
+}
+
+/* تنسيق الأقسام */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #2e6289;
+}
+
+/* تنسيق الصفحة الرئيسية */
+.home {
+    text-align: center;
+}
+
+/* تنسيق الخدمات */
+.services .service {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #c35c6d;
+}
+
+.service p {
+    color: #555;
+}
+
+/* تنسيق فريق العمل */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #2e6289;
+}
+
+.team-member h3 {
+    color: #c35c6d;
+    margin-top: 10px;
+}
+
+.team-member p {
+    color: #555;
+}
+
+/* تنسيق نموذج التواصل */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #2e6289;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2e6289;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #c35c6d;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #2e6289;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* التمرير الناعم */
+html {
+    scroll-behavior: smooth;
+}
